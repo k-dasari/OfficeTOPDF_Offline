@@ -1,0 +1,224 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXFileReference section */
+		25E7CB1C2C05D9EA00262BA4 /* .npmignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .npmignore; sourceTree = "<group>"; };
+		25E7CB1D2C05D9EA00262BA4 /* mocha.log */ = {isa = PBXFileReference; lastKnownFileType = text; path = mocha.log; sourceTree = "<group>"; };
+		25E7CB1E2C05D9EA00262BA4 /* l10n */ = {isa = PBXFileReference; lastKnownFileType = folder; path = l10n; sourceTree = "<group>"; };
+		25E7CB1F2C05D9EA00262BA4 /* .DS_Store */ = {isa = PBXFileReference; lastKnownFileType = file; path = .DS_Store; sourceTree = "<group>"; };
+		25E7CB202C05D9EA00262BA4 /* archived-packages */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "archived-packages"; sourceTree = "<group>"; };
+		25E7CB212C05D9EA00262BA4 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		25E7CB222C05D9EA00262BA4 /* test */ = {isa = PBXFileReference; lastKnownFileType = folder; path = test; sourceTree = "<group>"; };
+		25E7CB232C05D9EA00262BA4 /* util */ = {isa = PBXFileReference; lastKnownFileType = folder; path = util; sourceTree = "<group>"; };
+		25E7CB242C05D9EA00262BA4 /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; path = css; sourceTree = "<group>"; };
+		25E7CB252C05D9EA00262BA4 /* dist */ = {isa = PBXFileReference; lastKnownFileType = folder; path = dist; sourceTree = "<group>"; };
+		25E7CB262C05D9EA00262BA4 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		25E7CB272C05D9EA00262BA4 /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; path = js; sourceTree = "<group>"; };
+		25E7CB282C05D9EA00262BA4 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		25E7CB292C05D9EA00262BA4 /* .stylelintrc.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = .stylelintrc.json; sourceTree = "<group>"; };
+		25E7CB2A2C05D9EA00262BA4 /* .eslintrc */ = {isa = PBXFileReference; lastKnownFileType = text; path = .eslintrc; sourceTree = "<group>"; };
+		25E7CB2B2C05D9EA00262BA4 /* node_modules */ = {isa = PBXFileReference; lastKnownFileType = folder; path = node_modules; sourceTree = "<group>"; };
+		25E7CB2C2C05D9EA00262BA4 /* admin */ = {isa = PBXFileReference; lastKnownFileType = folder; path = admin; sourceTree = "<group>"; };
+		25E7CB2D2C05D9EA00262BA4 /* html */ = {isa = PBXFileReference; lastKnownFileType = folder; path = html; sourceTree = "<group>"; };
+		25E7CB2E2C05D9EA00262BA4 /* release */ = {isa = PBXFileReference; lastKnownFileType = folder; path = release; sourceTree = "<group>"; };
+		25E7CB2F2C05D9EA00262BA4 /* docs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = docs; sourceTree = "<group>"; };
+		25E7CB302C05D9EA00262BA4 /* npm-shrinkwrap.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "npm-shrinkwrap.json"; sourceTree = "<group>"; };
+		25E7CB312C05D9EA00262BA4 /* welcome */ = {isa = PBXFileReference; lastKnownFileType = folder; path = welcome; sourceTree = "<group>"; };
+		25E7CB322C05D9EA00262BA4 /* .prettierignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .prettierignore; sourceTree = "<group>"; };
+		25E7CB332C05D9EA00262BA4 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		25E7CB342C05D9EA00262BA4 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		25E7CB352C05D9EA00262BA4 /* bundle.js.m4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = bundle.js.m4; sourceTree = "<group>"; };
+		25E7CB362C05D9EA00262BA4 /* postmessage-api.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "postmessage-api.html"; sourceTree = "<group>"; };
+		25E7CB372C05D9EA00262BA4 /* po */ = {isa = PBXFileReference; lastKnownFileType = folder; path = po; sourceTree = "<group>"; };
+		25E7CB382C05D9EA00262BA4 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		25E7CB392C05D9EA00262BA4 /* package.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
+		25E7CB3A2C05D9EA00262BA4 /* .prettierrc */ = {isa = PBXFileReference; lastKnownFileType = text; path = .prettierrc; sourceTree = "<group>"; };
+		25E7CB3B2C05D9EA00262BA4 /* .gitattributes */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitattributes; sourceTree = "<group>"; };
+		25E7CB3C2C05D9EA00262BA4 /* tsconfig.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = tsconfig.json; sourceTree = "<group>"; };
+		25E7CB3D2C05D9EA00262BA4 /* tscompile.done */ = {isa = PBXFileReference; lastKnownFileType = text; path = tscompile.done; sourceTree = "<group>"; };
+		25E7CB3E2C05D9EA00262BA4 /* .eslintignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .eslintignore; sourceTree = "<group>"; };
+		25E7CB3F2C05D9EA00262BA4 /* duplication.log */ = {isa = PBXFileReference; lastKnownFileType = text; path = duplication.log; sourceTree = "<group>"; };
+		25E7CB402C05D9EA00262BA4 /* npm-shrinkwrap.json.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = "npm-shrinkwrap.json.in"; sourceTree = "<group>"; };
+		25E7CB412C05D9EA00262BA4 /* .beforeprettier */ = {isa = PBXFileReference; lastKnownFileType = text; path = .beforeprettier; sourceTree = "<group>"; };
+		25E7CB422C05D9EA00262BA4 /* mocha_tests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = mocha_tests; sourceTree = "<group>"; };
+		25E7CB432C05D9EA00262BA4 /* cool-api.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "cool-api.html"; sourceTree = "<group>"; };
+		25E7CB442C05D9EA00262BA4 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		25E7CB452C05D9EA00262BA4 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .travis.yml; sourceTree = "<group>"; };
+		25E7CB462C05D9EA00262BA4 /* cool-src.js.m4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "cool-src.js.m4"; sourceTree = "<group>"; };
+		25E7CB472C05D9EA00262BA4 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		25E7CB162C05D9EA00262BA4 = {
+			isa = PBXGroup;
+			children = (
+				25E7CB1C2C05D9EA00262BA4 /* .npmignore */,
+				25E7CB1D2C05D9EA00262BA4 /* mocha.log */,
+				25E7CB1E2C05D9EA00262BA4 /* l10n */,
+				25E7CB1F2C05D9EA00262BA4 /* .DS_Store */,
+				25E7CB202C05D9EA00262BA4 /* archived-packages */,
+				25E7CB212C05D9EA00262BA4 /* LICENSE */,
+				25E7CB222C05D9EA00262BA4 /* test */,
+				25E7CB232C05D9EA00262BA4 /* util */,
+				25E7CB242C05D9EA00262BA4 /* css */,
+				25E7CB252C05D9EA00262BA4 /* dist */,
+				25E7CB262C05D9EA00262BA4 /* images */,
+				25E7CB272C05D9EA00262BA4 /* js */,
+				25E7CB282C05D9EA00262BA4 /* Makefile */,
+				25E7CB292C05D9EA00262BA4 /* .stylelintrc.json */,
+				25E7CB2A2C05D9EA00262BA4 /* .eslintrc */,
+				25E7CB2B2C05D9EA00262BA4 /* node_modules */,
+				25E7CB2C2C05D9EA00262BA4 /* admin */,
+				25E7CB2D2C05D9EA00262BA4 /* html */,
+				25E7CB2E2C05D9EA00262BA4 /* release */,
+				25E7CB2F2C05D9EA00262BA4 /* docs */,
+				25E7CB302C05D9EA00262BA4 /* npm-shrinkwrap.json */,
+				25E7CB312C05D9EA00262BA4 /* welcome */,
+				25E7CB322C05D9EA00262BA4 /* .prettierignore */,
+				25E7CB332C05D9EA00262BA4 /* README */,
+				25E7CB342C05D9EA00262BA4 /* Makefile.am */,
+				25E7CB352C05D9EA00262BA4 /* bundle.js.m4 */,
+				25E7CB362C05D9EA00262BA4 /* postmessage-api.html */,
+				25E7CB372C05D9EA00262BA4 /* po */,
+				25E7CB382C05D9EA00262BA4 /* .gitignore */,
+				25E7CB392C05D9EA00262BA4 /* package.json */,
+				25E7CB3A2C05D9EA00262BA4 /* .prettierrc */,
+				25E7CB3B2C05D9EA00262BA4 /* .gitattributes */,
+				25E7CB3C2C05D9EA00262BA4 /* tsconfig.json */,
+				25E7CB3D2C05D9EA00262BA4 /* tscompile.done */,
+				25E7CB3E2C05D9EA00262BA4 /* .eslintignore */,
+				25E7CB3F2C05D9EA00262BA4 /* duplication.log */,
+				25E7CB402C05D9EA00262BA4 /* npm-shrinkwrap.json.in */,
+				25E7CB412C05D9EA00262BA4 /* .beforeprettier */,
+				25E7CB422C05D9EA00262BA4 /* mocha_tests */,
+				25E7CB432C05D9EA00262BA4 /* cool-api.html */,
+				25E7CB442C05D9EA00262BA4 /* Makefile.in */,
+				25E7CB452C05D9EA00262BA4 /* .travis.yml */,
+				25E7CB462C05D9EA00262BA4 /* cool-src.js.m4 */,
+				25E7CB472C05D9EA00262BA4 /* src */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		25E7CB1B2C05D9EA00262BA4 /* browser */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 25E7CB482C05D9EA00262BA4 /* Build configuration list for PBXLegacyTarget "browser" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/karthik/Desktop/online-master/browser";
+			dependencies = (
+			);
+			name = browser;
+			passBuildSettingsInEnvironment = 1;
+			productName = browser;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		25E7CB172C05D9EA00262BA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+			};
+			buildConfigurationList = 25E7CB1A2C05D9EA00262BA4 /* Build configuration list for PBXProject "browser" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25E7CB162C05D9EA00262BA4;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25E7CB1B2C05D9EA00262BA4 /* browser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		25E7CB182C05D9EA00262BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		25E7CB192C05D9EA00262BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		25E7CB492C05D9EA00262BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = browser;
+			};
+			name = Debug;
+		};
+		25E7CB4A2C05D9EA00262BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = browser;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25E7CB1A2C05D9EA00262BA4 /* Build configuration list for PBXProject "browser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25E7CB182C05D9EA00262BA4 /* Debug */,
+				25E7CB192C05D9EA00262BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25E7CB482C05D9EA00262BA4 /* Build configuration list for PBXLegacyTarget "browser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25E7CB492C05D9EA00262BA4 /* Debug */,
+				25E7CB4A2C05D9EA00262BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25E7CB172C05D9EA00262BA4 /* Project object */;
+}

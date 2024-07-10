@@ -80,6 +80,7 @@ static IMP standardImpOfInputAccessoryView = nil;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    printf("############### viewDidLoad DocumentViewController");
 
     WKWebViewConfiguration *configuration = [[WKWebViewConfiguration alloc] init];
     WKUserContentController *userContentController = [[WKUserContentController alloc] init];
@@ -200,6 +201,7 @@ static IMP standardImpOfInputAccessoryView = nil;
         return;
 
     [self.document openWithCompletionHandler:^(BOOL success) {
+        printf("############## success", success);
         if (success) {
             // Display the content of the document
         } else {
@@ -399,8 +401,8 @@ static IMP standardImpOfInputAccessoryView = nil;
 
             // Create the SVG for the slideshow.
 
-            self.slideshowFile = FileUtil::createRandomTmpDir() + "/slideshow.svg";
-            self.slideshowURL = [NSURL fileURLWithPath:[NSString stringWithUTF8String:self.slideshowFile.c_str()] isDirectory:NO];
+//            self.slideshowFile = FileUtil::createRandomTmpDir() + "/slideshow.svg";
+//            self.slideshowURL = [NSURL fileURLWithPath:[NSString stringWithUTF8String:self.slideshowFile.c_str()] isDirectory:NO];
 
             DocumentData::get(self.document->appDocId).loKitDocument->saveAs([[self.slideshowURL absoluteString] UTF8String], "svg", nullptr);
 
@@ -443,7 +445,7 @@ static IMP standardImpOfInputAccessoryView = nil;
             return;
         } else if ([message.body isEqualToString:@"EXITSLIDESHOW"]) {
 
-            std::remove(self.slideshowFile.c_str());
+          //  std::remove(self.slideshowFile.c_str());
 
             [self.slideshowWebView removeFromSuperview];
             self.slideshowWebView = nil;

@@ -28,7 +28,7 @@ DocumentData &DocumentData::allocate(unsigned docId)
 {
     const std::lock_guard<std::mutex> lock(idToDocDataMapMutex);
 
-    assert(idToDocDataMap.find(docId) == idToDocDataMap.end());
+   // assert(idToDocDataMap.find(docId) == idToDocDataMap.end());
     auto p = new DocumentData();
     idToDocDataMap[docId] = p;
     return *p;

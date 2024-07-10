@@ -9,7 +9,7 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  */
 
-#import <string>
+//#import <string>
 
 #import <UIKit/UIKit.h>
 

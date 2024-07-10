@@ -1,0 +1,3 @@
+[submodule "python-polib"]
+	path = python-polib
+	url = https://github.com/izimobil/polib

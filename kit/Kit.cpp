@@ -2139,6 +2139,8 @@ void Document::drainQueue()
             }
 
             const TileQueue::Payload input = _tileQueue->pop();
+            std::cout << "\ninput.data is  " << input.data();
+            std::cout << "\ninput.size is  " << input.size();
 
             LOG_TRC("Kit handling queue message: " << COOLProtocol::getAbbreviatedMessage(input));
 
@@ -2203,6 +2205,9 @@ void Document::drainQueue()
                             if (!session.isCloseFrame())
                             {
                                 isFound = true;
+                                printf("################### drainQueue ");
+                                std::cout << "type is  " << type;
+                                std::cout << "\npayload is  " << payload;
                                 session.loKitCallback(type, payload);
                             }
                             else

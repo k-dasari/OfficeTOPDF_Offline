@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXFileReference section */
+		25E7CB7B2C05D9EA00262BA4 /* UnitWOPISaveAsWithEncodedFileName.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitWOPISaveAsWithEncodedFileName.cpp; sourceTree = "<group>"; };
+		25E7CB7C2C05D9EA00262BA4 /* UnitAdmin.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitAdmin.cpp; sourceTree = "<group>"; };
+		25E7CB7D2C05D9EA00262BA4 /* UnitWOPIHttpRedirect.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitWOPIHttpRedirect.cpp; sourceTree = "<group>"; };
+		25E7CB7E2C05D9EA00262BA4 /* UnitTileCache.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitTileCache.cpp; sourceTree = "<group>"; };
+		25E7CB7F2C05D9EA00262BA4 /* UnitPaste.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitPaste.cpp; sourceTree = "<group>"; };
+		25E7CB802C05D9EA00262BA4 /* traces */ = {isa = PBXFileReference; lastKnownFileType = folder; path = traces; sourceTree = "<group>"; };
+		25E7CB812C05D9EA00262BA4 /* KitPidHelpers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KitPidHelpers.cpp; sourceTree = "<group>"; };
+		25E7CB822C05D9EA00262BA4 /* UnitHTTP.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitHTTP.cpp; sourceTree = "<group>"; };
+		25E7CB832C05D9EA00262BA4 /* UnitWOPITemplate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitWOPITemplate.cpp; sourceTree = "<group>"; };
+		25E7CB842C05D9EA00262BA4 /* UnitWOPILock.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitWOPILock.cpp; sourceTree = "<group>"; };
+		25E7CB852C05D9EA00262BA4 /* UnitCalc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitCalc.cpp; sourceTree = "<group>"; };
+		25E7CB862C05D9EA00262BA4 /* UnitPrefork.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitPrefork.cpp; sourceTree = "<group>"; };
+		25E7CB872C05D9EA00262BA4 /* HttpWhiteBoxTests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HttpWhiteBoxTests.cpp; sourceTree = "<group>"; };
+		25E7CB882C05D9EA00262BA4 /* UnitClose.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitClose.cpp; sourceTree = "<group>"; };
+		25E7CB892C05D9EA00262BA4 /* .DS_Store */ = {isa = PBXFileReference; lastKnownFileType = file; path = .DS_Store; sourceTree = "<group>"; };
+		25E7CB8A2C05D9EA00262BA4 /* UnitSession.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitSession.cpp; sourceTree = "<group>"; };
+		25E7CB8B2C05D9EA00262BA4 /* UnitJoinDisconnect.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitJoinDisconnect.cpp; sourceTree = "<group>"; };
+		25E7CB8C2C05D9EA00262BA4 /* UnitQuarantine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitQuarantine.cpp; sourceTree = "<group>"; };
+		25E7CB8D2C05D9EA00262BA4 /* UnitClient.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitClient.cpp; sourceTree = "<group>"; };
+		25E7CB8E2C05D9EA00262BA4 /* WopiTestServer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = WopiTestServer.hpp; sourceTree = "<group>"; };
+		25E7CB8F2C05D9EA00262BA4 /* UnitLoadTorture.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitLoadTorture.cpp; sourceTree = "<group>"; };
+		25E7CB902C05D9EA00262BA4 /* UnitWOPIStuckSave.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitWOPIStuckSave.cpp; sourceTree = "<group>"; };
+		25E7CB912C05D9EA00262BA4 /* UnitWSDClient.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = UnitWSDClient.hpp; sourceTree = "<group>"; };
+		25E7CB922C05D9EA00262BA4 /* UnitTimeout.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitTimeout.cpp; sourceTree = "<group>"; };
+		25E7CB932C05D9EA00262BA4 /* fakesockettest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fakesockettest.cpp; sourceTree = "<group>"; };
+		25E7CB942C05D9EA00262BA4 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		25E7CB952C05D9EA00262BA4 /* UnitWOPIHttpHeaders.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitWOPIHttpHeaders.cpp; sourceTree = "<group>"; };
+		25E7CB962C05D9EA00262BA4 /* integration-http-server.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "integration-http-server.cpp"; sourceTree = "<group>"; };
+		25E7CB972C05D9EA00262BA4 /* testlog.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = testlog.hpp; sourceTree = "<group>"; };
+		25E7CB982C05D9EA00262BA4 /* UnitCopyPasteWriter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitCopyPasteWriter.cpp; sourceTree = "<group>"; };
+		25E7CB992C05D9EA00262BA4 /* lokassert.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = lokassert.hpp; sourceTree = "<group>"; };
+		25E7CB9A2C05D9EA00262BA4 /* WebSocketSession.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = WebSocketSession.hpp; sourceTree = "<group>"; };
+		25E7CB9B2C05D9EA00262BA4 /* test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
+		25E7CB9C2C05D9EA00262BA4 /* UnitWOPIAsyncUpload_ModifyClose.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitWOPIAsyncUpload_ModifyClose.cpp; sourceTree = "<group>"; };
+		25E7CB9D2C05D9EA00262BA4 /* UnitSyntheticLok.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitSyntheticLok.cpp; sourceTree = "<group>"; };
+		25E7CB9E2C05D9EA00262BA4 /* UnitWOPISlow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitWOPISlow.cpp; sourceTree = "<group>"; };
+		25E7CB9F2C05D9EA00262BA4 /* UnitWOPIVersionRestore.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitWOPIVersionRestore.cpp; sourceTree = "<group>"; };
+		25E7CBA02C05D9EA00262BA4 /* UtilTests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UtilTests.cpp; sourceTree = "<group>"; };
+		25E7CBA12C05D9EA00262BA4 /* TileCacheTests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TileCacheTests.cpp; sourceTree = "<group>"; };
+		25E7CBA22C05D9EA00262BA4 /* UnitRenderingOptions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitRenderingOptions.cpp; sourceTree = "<group>"; };
+		25E7CBA32C05D9EA00262BA4 /* UnitLoad.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitLoad.cpp; sourceTree = "<group>"; };
+		25E7CBA42C05D9EA00262BA4 /* UnitWOPISaveAs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitWOPISaveAs.cpp; sourceTree = "<group>"; };
+		25E7CBA52C05D9EA00262BA4 /* UnitFuzz.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitFuzz.cpp; sourceTree = "<group>"; };
+		25E7CBA62C05D9EA00262BA4 /* DeltaTests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DeltaTests.cpp; sourceTree = "<group>"; };
+		25E7CBA72C05D9EA00262BA4 /* UnitWOPIRenameFile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitWOPIRenameFile.cpp; sourceTree = "<group>"; };
+		25E7CBA82C05D9EA00262BA4 /* UnitInsertDelete.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitInsertDelete.cpp; sourceTree = "<group>"; };
+		25E7CBA92C05D9EA00262BA4 /* run_unit_standalone.sh.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = run_unit_standalone.sh.in; sourceTree = "<group>"; };
+		25E7CBAA2C05D9EA00262BA4 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		25E7CBAB2C05D9EA00262BA4 /* UnitConvert.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitConvert.cpp; sourceTree = "<group>"; };
+		25E7CBAC2C05D9EA00262BA4 /* UnitPasswordProtected.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitPasswordProtected.cpp; sourceTree = "<group>"; };
+		25E7CBAD2C05D9EA00262BA4 /* RequestDetailsTests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RequestDetailsTests.cpp; sourceTree = "<group>"; };
+		25E7CBAE2C05D9EA00262BA4 /* HttpRequestTests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HttpRequestTests.cpp; sourceTree = "<group>"; };
+		25E7CBAF2C05D9EA00262BA4 /* UnitOAuth.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitOAuth.cpp; sourceTree = "<group>"; };
+		25E7CBB02C05D9EA00262BA4 /* UnitRenderShape.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitRenderShape.cpp; sourceTree = "<group>"; };
+		25E7CBB12C05D9EA00262BA4 /* UnitEachView.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitEachView.cpp; sourceTree = "<group>"; };
+		25E7CBB22C05D9EA00262BA4 /* test.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = test.hpp; sourceTree = "<group>"; };
+		25E7CBB32C05D9EA00262BA4 /* UnitLargePaste.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitLargePaste.cpp; sourceTree = "<group>"; };
+		25E7CBB42C05D9EA00262BA4 /* UnitWOPISaveOnExit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitWOPISaveOnExit.cpp; sourceTree = "<group>"; };
+		25E7CBB52C05D9EA00262BA4 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		25E7CBB62C05D9EA00262BA4 /* UnitWOPIWatermark.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitWOPIWatermark.cpp; sourceTree = "<group>"; };
+		25E7CBB72C05D9EA00262BA4 /* UnitBadDocLoad.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitBadDocLoad.cpp; sourceTree = "<group>"; };
+		25E7CBB82C05D9EA00262BA4 /* run_unit_standalone.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = run_unit_standalone.sh; sourceTree = "<group>"; };
+		25E7CBB92C05D9EA00262BA4 /* UnitRenderSearchResult.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitRenderSearchResult.cpp; sourceTree = "<group>"; };
+		25E7CBBA2C05D9EA00262BA4 /* httpcrashtest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = httpcrashtest.cpp; sourceTree = "<group>"; };
+		25E7CBBB2C05D9EA00262BA4 /* UnitWOPI.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitWOPI.cpp; sourceTree = "<group>"; };
+		25E7CBBC2C05D9EA00262BA4 /* UnitWOPILanguages.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitWOPILanguages.cpp; sourceTree = "<group>"; };
+		25E7CBBD2C05D9EA00262BA4 /* httpwstest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = httpwstest.cpp; sourceTree = "<group>"; };
+		25E7CBBE2C05D9EA00262BA4 /* UnitWOPILoadEncoded.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitWOPILoadEncoded.cpp; sourceTree = "<group>"; };
+		25E7CBBF2C05D9EA00262BA4 /* FileServeWhiteBoxTests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FileServeWhiteBoxTests.cpp; sourceTree = "<group>"; };
+		25E7CBC02C05D9EA00262BA4 /* StringVectorTests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StringVectorTests.cpp; sourceTree = "<group>"; };
+		25E7CBC12C05D9EA00262BA4 /* UnitWopiOwnertermination.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitWopiOwnertermination.cpp; sourceTree = "<group>"; };
+		25E7CBC22C05D9EA00262BA4 /* WopiProofTests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = WopiProofTests.cpp; sourceTree = "<group>"; };
+		25E7CBC32C05D9EA00262BA4 /* WhiteBoxTests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = WhiteBoxTests.cpp; sourceTree = "<group>"; };
+		25E7CBC42C05D9EA00262BA4 /* HttpTestServer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HttpTestServer.hpp; sourceTree = "<group>"; };
+		25E7CBC52C05D9EA00262BA4 /* helpers.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = helpers.hpp; sourceTree = "<group>"; };
+		25E7CBC62C05D9EA00262BA4 /* UnitStorage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitStorage.cpp; sourceTree = "<group>"; };
+		25E7CBC72C05D9EA00262BA4 /* run_unit.sh.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = run_unit.sh.in; sourceTree = "<group>"; };
+		25E7CBC82C05D9EA00262BA4 /* UnitCursor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitCursor.cpp; sourceTree = "<group>"; };
+		25E7CBC92C05D9EA00262BA4 /* KitPidHelpers.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = KitPidHelpers.hpp; sourceTree = "<group>"; };
+		25E7CBCA2C05D9EA00262BA4 /* UnitTiffLoad.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitTiffLoad.cpp; sourceTree = "<group>"; };
+		25E7CBCB2C05D9EA00262BA4 /* UnitHosting.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitHosting.cpp; sourceTree = "<group>"; };
+		25E7CBCC2C05D9EA00262BA4 /* UnitHTTP.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = UnitHTTP.hpp; sourceTree = "<group>"; };
+		25E7CBCD2C05D9EA00262BA4 /* .deps */ = {isa = PBXFileReference; lastKnownFileType = folder; path = .deps; sourceTree = "<group>"; };
+		25E7CBCE2C05D9EA00262BA4 /* UnitWOPIFailUpload.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitWOPIFailUpload.cpp; sourceTree = "<group>"; };
+		25E7CBCF2C05D9EA00262BA4 /* UnitCopyPaste.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitCopyPaste.cpp; sourceTree = "<group>"; };
+		25E7CBD02C05D9EA00262BA4 /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = data; sourceTree = "<group>"; };
+		25E7CBD12C05D9EA00262BA4 /* UnitWOPIDocumentConflict.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitWOPIDocumentConflict.cpp; sourceTree = "<group>"; };
+		25E7CBD22C05D9EA00262BA4 /* UnitSaveTorture.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitSaveTorture.cpp; sourceTree = "<group>"; };
+		25E7CBD32C05D9EA00262BA4 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		25E7CBD42C05D9EA00262BA4 /* WOPIUploadConflictCommon.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = WOPIUploadConflictCommon.hpp; sourceTree = "<group>"; };
+		25E7CBD52C05D9EA00262BA4 /* UnitWOPIFileUrl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitWOPIFileUrl.cpp; sourceTree = "<group>"; };
+		25E7CBD62C05D9EA00262BA4 /* run_unit.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = run_unit.sh; sourceTree = "<group>"; };
+		25E7CBD72C05D9EA00262BA4 /* TileQueueTests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TileQueueTests.cpp; sourceTree = "<group>"; };
+		25E7CBD82C05D9EA00262BA4 /* UnitWOPICrashModified.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitWOPICrashModified.cpp; sourceTree = "<group>"; };
+		25E7CBD92C05D9EA00262BA4 /* UnitTyping.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitTyping.cpp; sourceTree = "<group>"; };
+		25E7CBDA2C05D9EA00262BA4 /* UnitUNOCommand.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnitUNOCommand.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		25E7CB752C05D9EA00262BA4 = {
+			isa = PBXGroup;
+			children = (
+				25E7CB7B2C05D9EA00262BA4 /* UnitWOPISaveAsWithEncodedFileName.cpp */,
+				25E7CB7C2C05D9EA00262BA4 /* UnitAdmin.cpp */,
+				25E7CB7D2C05D9EA00262BA4 /* UnitWOPIHttpRedirect.cpp */,
+				25E7CB7E2C05D9EA00262BA4 /* UnitTileCache.cpp */,
+				25E7CB7F2C05D9EA00262BA4 /* UnitPaste.cpp */,
+				25E7CB802C05D9EA00262BA4 /* traces */,
+				25E7CB812C05D9EA00262BA4 /* KitPidHelpers.cpp */,
+				25E7CB822C05D9EA00262BA4 /* UnitHTTP.cpp */,
+				25E7CB832C05D9EA00262BA4 /* UnitWOPITemplate.cpp */,
+				25E7CB842C05D9EA00262BA4 /* UnitWOPILock.cpp */,
+				25E7CB852C05D9EA00262BA4 /* UnitCalc.cpp */,
+				25E7CB862C05D9EA00262BA4 /* UnitPrefork.cpp */,
+				25E7CB872C05D9EA00262BA4 /* HttpWhiteBoxTests.cpp */,
+				25E7CB882C05D9EA00262BA4 /* UnitClose.cpp */,
+				25E7CB892C05D9EA00262BA4 /* .DS_Store */,
+				25E7CB8A2C05D9EA00262BA4 /* UnitSession.cpp */,
+				25E7CB8B2C05D9EA00262BA4 /* UnitJoinDisconnect.cpp */,
+				25E7CB8C2C05D9EA00262BA4 /* UnitQuarantine.cpp */,
+				25E7CB8D2C05D9EA00262BA4 /* UnitClient.cpp */,
+				25E7CB8E2C05D9EA00262BA4 /* WopiTestServer.hpp */,
+				25E7CB8F2C05D9EA00262BA4 /* UnitLoadTorture.cpp */,
+				25E7CB902C05D9EA00262BA4 /* UnitWOPIStuckSave.cpp */,
+				25E7CB912C05D9EA00262BA4 /* UnitWSDClient.hpp */,
+				25E7CB922C05D9EA00262BA4 /* UnitTimeout.cpp */,
+				25E7CB932C05D9EA00262BA4 /* fakesockettest.cpp */,
+				25E7CB942C05D9EA00262BA4 /* Makefile */,
+				25E7CB952C05D9EA00262BA4 /* UnitWOPIHttpHeaders.cpp */,
+				25E7CB962C05D9EA00262BA4 /* integration-http-server.cpp */,
+				25E7CB972C05D9EA00262BA4 /* testlog.hpp */,
+				25E7CB982C05D9EA00262BA4 /* UnitCopyPasteWriter.cpp */,
+				25E7CB992C05D9EA00262BA4 /* lokassert.hpp */,
+				25E7CB9A2C05D9EA00262BA4 /* WebSocketSession.hpp */,
+				25E7CB9B2C05D9EA00262BA4 /* test.cpp */,
+				25E7CB9C2C05D9EA00262BA4 /* UnitWOPIAsyncUpload_ModifyClose.cpp */,
+				25E7CB9D2C05D9EA00262BA4 /* UnitSyntheticLok.cpp */,
+				25E7CB9E2C05D9EA00262BA4 /* UnitWOPISlow.cpp */,
+				25E7CB9F2C05D9EA00262BA4 /* UnitWOPIVersionRestore.cpp */,
+				25E7CBA02C05D9EA00262BA4 /* UtilTests.cpp */,
+				25E7CBA12C05D9EA00262BA4 /* TileCacheTests.cpp */,
+				25E7CBA22C05D9EA00262BA4 /* UnitRenderingOptions.cpp */,
+				25E7CBA32C05D9EA00262BA4 /* UnitLoad.cpp */,
+				25E7CBA42C05D9EA00262BA4 /* UnitWOPISaveAs.cpp */,
+				25E7CBA52C05D9EA00262BA4 /* UnitFuzz.cpp */,
+				25E7CBA62C05D9EA00262BA4 /* DeltaTests.cpp */,
+				25E7CBA72C05D9EA00262BA4 /* UnitWOPIRenameFile.cpp */,
+				25E7CBA82C05D9EA00262BA4 /* UnitInsertDelete.cpp */,
+				25E7CBA92C05D9EA00262BA4 /* run_unit_standalone.sh.in */,
+				25E7CBAA2C05D9EA00262BA4 /* Makefile.am */,
+				25E7CBAB2C05D9EA00262BA4 /* UnitConvert.cpp */,
+				25E7CBAC2C05D9EA00262BA4 /* UnitPasswordProtected.cpp */,
+				25E7CBAD2C05D9EA00262BA4 /* RequestDetailsTests.cpp */,
+				25E7CBAE2C05D9EA00262BA4 /* HttpRequestTests.cpp */,
+				25E7CBAF2C05D9EA00262BA4 /* UnitOAuth.cpp */,
+				25E7CBB02C05D9EA00262BA4 /* UnitRenderShape.cpp */,
+				25E7CBB12C05D9EA00262BA4 /* UnitEachView.cpp */,
+				25E7CBB22C05D9EA00262BA4 /* test.hpp */,
+				25E7CBB32C05D9EA00262BA4 /* UnitLargePaste.cpp */,
+				25E7CBB42C05D9EA00262BA4 /* UnitWOPISaveOnExit.cpp */,
+				25E7CBB52C05D9EA00262BA4 /* .gitignore */,
+				25E7CBB62C05D9EA00262BA4 /* UnitWOPIWatermark.cpp */,
+				25E7CBB72C05D9EA00262BA4 /* UnitBadDocLoad.cpp */,
+				25E7CBB82C05D9EA00262BA4 /* run_unit_standalone.sh */,
+				25E7CBB92C05D9EA00262BA4 /* UnitRenderSearchResult.cpp */,
+				25E7CBBA2C05D9EA00262BA4 /* httpcrashtest.cpp */,
+				25E7CBBB2C05D9EA00262BA4 /* UnitWOPI.cpp */,
+				25E7CBBC2C05D9EA00262BA4 /* UnitWOPILanguages.cpp */,
+				25E7CBBD2C05D9EA00262BA4 /* httpwstest.cpp */,
+				25E7CBBE2C05D9EA00262BA4 /* UnitWOPILoadEncoded.cpp */,
+				25E7CBBF2C05D9EA00262BA4 /* FileServeWhiteBoxTests.cpp */,
+				25E7CBC02C05D9EA00262BA4 /* StringVectorTests.cpp */,
+				25E7CBC12C05D9EA00262BA4 /* UnitWopiOwnertermination.cpp */,
+				25E7CBC22C05D9EA00262BA4 /* WopiProofTests.cpp */,
+				25E7CBC32C05D9EA00262BA4 /* WhiteBoxTests.cpp */,
+				25E7CBC42C05D9EA00262BA4 /* HttpTestServer.hpp */,
+				25E7CBC52C05D9EA00262BA4 /* helpers.hpp */,
+				25E7CBC62C05D9EA00262BA4 /* UnitStorage.cpp */,
+				25E7CBC72C05D9EA00262BA4 /* run_unit.sh.in */,
+				25E7CBC82C05D9EA00262BA4 /* UnitCursor.cpp */,
+				25E7CBC92C05D9EA00262BA4 /* KitPidHelpers.hpp */,
+				25E7CBCA2C05D9EA00262BA4 /* UnitTiffLoad.cpp */,
+				25E7CBCB2C05D9EA00262BA4 /* UnitHosting.cpp */,
+				25E7CBCC2C05D9EA00262BA4 /* UnitHTTP.hpp */,
+				25E7CBCD2C05D9EA00262BA4 /* .deps */,
+				25E7CBCE2C05D9EA00262BA4 /* UnitWOPIFailUpload.cpp */,
+				25E7CBCF2C05D9EA00262BA4 /* UnitCopyPaste.cpp */,
+				25E7CBD02C05D9EA00262BA4 /* data */,
+				25E7CBD12C05D9EA00262BA4 /* UnitWOPIDocumentConflict.cpp */,
+				25E7CBD22C05D9EA00262BA4 /* UnitSaveTorture.cpp */,
+				25E7CBD32C05D9EA00262BA4 /* Makefile.in */,
+				25E7CBD42C05D9EA00262BA4 /* WOPIUploadConflictCommon.hpp */,
+				25E7CBD52C05D9EA00262BA4 /* UnitWOPIFileUrl.cpp */,
+				25E7CBD62C05D9EA00262BA4 /* run_unit.sh */,
+				25E7CBD72C05D9EA00262BA4 /* TileQueueTests.cpp */,
+				25E7CBD82C05D9EA00262BA4 /* UnitWOPICrashModified.cpp */,
+				25E7CBD92C05D9EA00262BA4 /* UnitTyping.cpp */,
+				25E7CBDA2C05D9EA00262BA4 /* UnitUNOCommand.cpp */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		25E7CB7A2C05D9EA00262BA4 /* test */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 25E7CBDB2C05D9EA00262BA4 /* Build configuration list for PBXLegacyTarget "test" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/karthik/Desktop/online-master/test";
+			dependencies = (
+			);
+			name = test;
+			passBuildSettingsInEnvironment = 1;
+			productName = test;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		25E7CB762C05D9EA00262BA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+			};
+			buildConfigurationList = 25E7CB792C05D9EA00262BA4 /* Build configuration list for PBXProject "test" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25E7CB752C05D9EA00262BA4;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25E7CB7A2C05D9EA00262BA4 /* test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		25E7CB772C05D9EA00262BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		25E7CB782C05D9EA00262BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		25E7CBDC2C05D9EA00262BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = test;
+			};
+			name = Debug;
+		};
+		25E7CBDD2C05D9EA00262BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = test;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25E7CB792C05D9EA00262BA4 /* Build configuration list for PBXProject "test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25E7CB772C05D9EA00262BA4 /* Debug */,
+				25E7CB782C05D9EA00262BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25E7CBDB2C05D9EA00262BA4 /* Build configuration list for PBXLegacyTarget "test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25E7CBDC2C05D9EA00262BA4 /* Debug */,
+				25E7CBDD2C05D9EA00262BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25E7CB762C05D9EA00262BA4 /* Project object */;
+}

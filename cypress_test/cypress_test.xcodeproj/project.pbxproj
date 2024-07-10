@@ -1,0 +1,170 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXFileReference section */
+		25E7CB512C05D9EA00262BA4 /* run_repeatedly.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = run_repeatedly.sh; sourceTree = "<group>"; };
+		25E7CB522C05D9EA00262BA4 /* .DS_Store */ = {isa = PBXFileReference; lastKnownFileType = file; path = .DS_Store; sourceTree = "<group>"; };
+		25E7CB532C05D9EA00262BA4 /* integration_tests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = integration_tests; sourceTree = "<group>"; };
+		25E7CB542C05D9EA00262BA4 /* plugins */ = {isa = PBXFileReference; lastKnownFileType = folder; path = plugins; sourceTree = "<group>"; };
+		25E7CB552C05D9EA00262BA4 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		25E7CB562C05D9EA00262BA4 /* eslint_plugin */ = {isa = PBXFileReference; lastKnownFileType = folder; path = eslint_plugin; sourceTree = "<group>"; };
+		25E7CB572C05D9EA00262BA4 /* .eslintrc */ = {isa = PBXFileReference; lastKnownFileType = text; path = .eslintrc; sourceTree = "<group>"; };
+		25E7CB582C05D9EA00262BA4 /* run_parallel.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = run_parallel.sh; sourceTree = "<group>"; };
+		25E7CB592C05D9EA00262BA4 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		25E7CB5A2C05D9EA00262BA4 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		25E7CB5B2C05D9EA00262BA4 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		25E7CB5C2C05D9EA00262BA4 /* package.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
+		25E7CB5D2C05D9EA00262BA4 /* support */ = {isa = PBXFileReference; lastKnownFileType = folder; path = support; sourceTree = "<group>"; };
+		25E7CB5E2C05D9EA00262BA4 /* .eslintignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .eslintignore; sourceTree = "<group>"; };
+		25E7CB5F2C05D9EA00262BA4 /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = data; sourceTree = "<group>"; };
+		25E7CB602C05D9EA00262BA4 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		25E7CB612C05D9EA00262BA4 /* cypress.config.ts */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = cypress.config.ts; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		25E7CB4B2C05D9EA00262BA4 = {
+			isa = PBXGroup;
+			children = (
+				25E7CB512C05D9EA00262BA4 /* run_repeatedly.sh */,
+				25E7CB522C05D9EA00262BA4 /* .DS_Store */,
+				25E7CB532C05D9EA00262BA4 /* integration_tests */,
+				25E7CB542C05D9EA00262BA4 /* plugins */,
+				25E7CB552C05D9EA00262BA4 /* Makefile */,
+				25E7CB562C05D9EA00262BA4 /* eslint_plugin */,
+				25E7CB572C05D9EA00262BA4 /* .eslintrc */,
+				25E7CB582C05D9EA00262BA4 /* run_parallel.sh */,
+				25E7CB592C05D9EA00262BA4 /* README */,
+				25E7CB5A2C05D9EA00262BA4 /* Makefile.am */,
+				25E7CB5B2C05D9EA00262BA4 /* .gitignore */,
+				25E7CB5C2C05D9EA00262BA4 /* package.json */,
+				25E7CB5D2C05D9EA00262BA4 /* support */,
+				25E7CB5E2C05D9EA00262BA4 /* .eslintignore */,
+				25E7CB5F2C05D9EA00262BA4 /* data */,
+				25E7CB602C05D9EA00262BA4 /* Makefile.in */,
+				25E7CB612C05D9EA00262BA4 /* cypress.config.ts */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		25E7CB502C05D9EA00262BA4 /* cypress_test */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 25E7CB622C05D9EA00262BA4 /* Build configuration list for PBXLegacyTarget "cypress_test" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/karthik/Desktop/online-master/cypress_test";
+			dependencies = (
+			);
+			name = cypress_test;
+			passBuildSettingsInEnvironment = 1;
+			productName = cypress_test;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		25E7CB4C2C05D9EA00262BA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+			};
+			buildConfigurationList = 25E7CB4F2C05D9EA00262BA4 /* Build configuration list for PBXProject "cypress_test" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25E7CB4B2C05D9EA00262BA4;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25E7CB502C05D9EA00262BA4 /* cypress_test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		25E7CB4D2C05D9EA00262BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		25E7CB4E2C05D9EA00262BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		25E7CB632C05D9EA00262BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = cypress_test;
+			};
+			name = Debug;
+		};
+		25E7CB642C05D9EA00262BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = cypress_test;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25E7CB4F2C05D9EA00262BA4 /* Build configuration list for PBXProject "cypress_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25E7CB4D2C05D9EA00262BA4 /* Debug */,
+				25E7CB4E2C05D9EA00262BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25E7CB622C05D9EA00262BA4 /* Build configuration list for PBXLegacyTarget "cypress_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25E7CB632C05D9EA00262BA4 /* Debug */,
+				25E7CB642C05D9EA00262BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25E7CB4C2C05D9EA00262BA4 /* Project object */;
+}

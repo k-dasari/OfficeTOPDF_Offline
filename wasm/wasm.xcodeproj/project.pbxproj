@@ -1,0 +1,160 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXFileReference section */
+		25E7CBE42C05D9EA00262BA4 /* wasmapp.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = wasmapp.hpp; sourceTree = "<group>"; };
+		25E7CBE52C05D9EA00262BA4 /* README.no-container.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "README.no-container.md"; sourceTree = "<group>"; };
+		25E7CBE62C05D9EA00262BA4 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		25E7CBE72C05D9EA00262BA4 /* poco-1.12.4-emscripten.patch */ = {isa = PBXFileReference; lastKnownFileType = text; path = "poco-1.12.4-emscripten.patch"; sourceTree = "<group>"; };
+		25E7CBE82C05D9EA00262BA4 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		25E7CBE92C05D9EA00262BA4 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		25E7CBEA2C05D9EA00262BA4 /* poco-devel-emscripten.patch */ = {isa = PBXFileReference; lastKnownFileType = text; path = "poco-devel-emscripten.patch"; sourceTree = "<group>"; };
+		25E7CBEB2C05D9EA00262BA4 /* poco-no-special-expat-sauce.diff */ = {isa = PBXFileReference; lastKnownFileType = text; path = "poco-no-special-expat-sauce.diff"; sourceTree = "<group>"; };
+		25E7CBEC2C05D9EA00262BA4 /* .deps */ = {isa = PBXFileReference; lastKnownFileType = folder; path = .deps; sourceTree = "<group>"; };
+		25E7CBED2C05D9EA00262BA4 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		25E7CBEE2C05D9EA00262BA4 /* base64.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = base64.hpp; sourceTree = "<group>"; };
+		25E7CBEF2C05D9EA00262BA4 /* wasmapp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = wasmapp.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		25E7CBDE2C05D9EA00262BA4 = {
+			isa = PBXGroup;
+			children = (
+				25E7CBE42C05D9EA00262BA4 /* wasmapp.hpp */,
+				25E7CBE52C05D9EA00262BA4 /* README.no-container.md */,
+				25E7CBE62C05D9EA00262BA4 /* Makefile */,
+				25E7CBE72C05D9EA00262BA4 /* poco-1.12.4-emscripten.patch */,
+				25E7CBE82C05D9EA00262BA4 /* README */,
+				25E7CBE92C05D9EA00262BA4 /* Makefile.am */,
+				25E7CBEA2C05D9EA00262BA4 /* poco-devel-emscripten.patch */,
+				25E7CBEB2C05D9EA00262BA4 /* poco-no-special-expat-sauce.diff */,
+				25E7CBEC2C05D9EA00262BA4 /* .deps */,
+				25E7CBED2C05D9EA00262BA4 /* Makefile.in */,
+				25E7CBEE2C05D9EA00262BA4 /* base64.hpp */,
+				25E7CBEF2C05D9EA00262BA4 /* wasmapp.cpp */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		25E7CBE32C05D9EA00262BA4 /* wasm */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 25E7CBF02C05D9EA00262BA4 /* Build configuration list for PBXLegacyTarget "wasm" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/karthik/Desktop/online-master/wasm";
+			dependencies = (
+			);
+			name = wasm;
+			passBuildSettingsInEnvironment = 1;
+			productName = wasm;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		25E7CBDF2C05D9EA00262BA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+			};
+			buildConfigurationList = 25E7CBE22C05D9EA00262BA4 /* Build configuration list for PBXProject "wasm" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25E7CBDE2C05D9EA00262BA4;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25E7CBE32C05D9EA00262BA4 /* wasm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		25E7CBE02C05D9EA00262BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		25E7CBE12C05D9EA00262BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		25E7CBF12C05D9EA00262BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = wasm;
+			};
+			name = Debug;
+		};
+		25E7CBF22C05D9EA00262BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = wasm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25E7CBE22C05D9EA00262BA4 /* Build configuration list for PBXProject "wasm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25E7CBE02C05D9EA00262BA4 /* Debug */,
+				25E7CBE12C05D9EA00262BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25E7CBF02C05D9EA00262BA4 /* Build configuration list for PBXLegacyTarget "wasm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25E7CBF12C05D9EA00262BA4 /* Debug */,
+				25E7CBF22C05D9EA00262BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25E7CBDF2C05D9EA00262BA4 /* Project object */;
+}
